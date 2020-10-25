@@ -22,27 +22,19 @@
     android:layout_gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MainActivity">
-//cambie el nombre del id del botton
-    <Button
-        android:id="@+id/mi_boton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/roll" />
-   //cree otra imagen llamada bart
-    <ImageView
-        android:id="@+id/bart"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/bart"
-        android:contentDescription="@string/bart" />
-// cambie el nombre de la id de la imagen del dado
+
     <ImageView
         android:id="@+id/imagen_dado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:contentDescription="@string/app_name"
         app:srcCompat="@drawable/empty_dice" />
+
+    <Button
+        android:id="@+id/mi_boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/otro" />
 
 </LinearLayout>

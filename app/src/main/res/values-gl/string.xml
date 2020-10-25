@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">Lanza</string>
+    <string name="tirar">Botar</string>
+    <string name="otro">Outro</string>
+    <string name="ganar">Gañar</string>
+
+
+
+</resources>
